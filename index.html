@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coming Soon | Elina</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .container {
+      max-width: 500px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 20px;
+    }
+    input, button {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #333;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #555;
+    }
+  </style>
+  <!-- Google Analytics (replace 'G-XXXXXXX' with your ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NSL8D1BTBG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NSL8D1BTBG');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Elina Logo" class="logo" />
+    <h1>Our Website is Coming Soon 🚧</h1>
+    <p>We're working hard to finish the development. Leave your contact below to stay updated!</p>
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="e583ee37-748d-4963-96ca-ff7161e9ff9c" />
+      <input type="hidden" name="redirect" value="https://elina.so/thank-you.html" />
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <button type="submit">Notify Me</button>
+    </form>
+  </div>
+</body>
+</html>
